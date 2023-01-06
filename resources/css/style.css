@@ -60,7 +60,6 @@
 
 .donate-today p {
     color: #b3b3b3;
-    margin-bottom: 10px;
 }
 
 .donate-today .btn {
@@ -86,9 +85,10 @@
 
 .amount {
     color: #707070;
-    padding: 20px;
+    padding: 40px;
     background: #fafafa;
     border: 2px solid transparent;
+    margin-bottom: 20px;
     transition: .5s;
 }
 
@@ -155,4 +155,44 @@
 
 .category-3 p {
     color: #707070;
+}
+
+.donate-plan p {
+    color: #b3b3b3;
+    margin-bottom: 50px;
+}
+
+/* contribute-container */
+
+.contribute {
+    margin-top: 100px;
+}
+
+.contribute-container {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contribute-container h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.contribute-container p {
+    color: #707070;
+    margin-bottom: 20px;
+}
+
+.contribute-container .btn {
+    font-size: 20px;
+}
+
+
+.contribute-container img {
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    background-position: center;
 }
